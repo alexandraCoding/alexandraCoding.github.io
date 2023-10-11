@@ -86,3 +86,17 @@ article ul li {
   list-style-type: square;
   font-size: 18px;
 }
+
+#projects ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: square;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  #projects li {
+    align-items: center;
+  }
+}
